@@ -1,0 +1,129 @@
+load test.ppm test
+save test-save.ppm test
+save test-save.png test
+save test-save.bmp test
+
+
+brighten 50 test test-brighter
+save test-brighter-50.ppm test-brighter
+save test-brighter-50.png test-brighter
+save test-brighter-50.bmp test-brighter
+
+
+vertical-flip test test-vertical
+save test-vertical.ppm test-vertical
+save test-vertical.png test-vertical
+save test-vertical.bmp test-vertical
+
+
+horizontal-flip test-vertical test-vertical-horizontal
+save test-vertical-horizontal.ppm test-vertical-horizontal
+
+greyscale red-component test test-greyscale-red
+save test-greyscale-red.ppm test-greyscale-red
+
+greyscale green-component test test-greyscale-green
+save test-greyscale-green.ppm test-greyscale-green
+
+greyscale blue-component test test-greyscale-blue
+save test-greyscale-blue.ppm test-greyscale-blue
+
+greyscale value-component test test-greyscale-value
+save test-greyscale-value.ppm test-greyscale-value
+
+greyscale luma-component test test-greyscale-luma
+save test-greyscale-luma.ppm test-greyscale-luma
+
+greyscale intensity-component test test-greyscale-intensity
+save test-greyscale-intensity.ppm test-greyscale-intensity
+
+rgb-split test test-red test-green test-blue
+save test-split-red.ppm test-red
+save test-split-green.ppm test-green
+save test-split-blue.ppm test-blue
+
+rgb-combine test-combined test-red test-green test-blue
+save test-combined.ppm test-combined
+
+blur test test-blur-once
+save test-blur-once.ppm test-blur-once
+
+blur test-blur-once test-blur-twice
+save test-blur-twice.ppm test-blur-twice
+
+sharpen test test-sharpen-once
+save test-sharpen-once.ppm test-sharpen-once
+
+sharpen test-sharpen-once test-sharpen-twice
+save test-sharpen-twice.ppm test-sharpen-twice
+
+sepia test test-sepia
+save test-sepia.ppm test-sepia
+
+dither test test-dithered-once
+save test-dithered-once.ppm test-dithered-once
+
+
+load test.ppm test-ppm
+load test.png test-png
+load test.jpg test-jpg
+load test.bmp test-bmp
+
+save test-ppm.ppm test-ppm
+save test-png.png test-png
+save test-jpg.jpg test-jpg
+save test-bmp.bmp test-bmp
+
+rgb-split test-ppm test-red test-green test-blue
+save test-green-split.jpg test-green
+
+rgb-combine test-combine test-red test-green test-blue
+save test-combine.png test-combine
+
+brighten 50 test-ppm test-brighter
+save test-brighter-bmp.bmp test-brighter
+
+brighten -50 test-ppm test-darken
+save test-darken-bmp.bmp test-darken
+
+greyscale value-component test-png test-value-greyscale
+save test-value-greyscale-ppm.ppm test-value-greyscale
+
+greyscale luma-component test-png test-luma-greyscale
+save test-luma-greyscale-jpg.jpg test-luma-greyscale
+
+greyscale intensity-component test-png test-intensity-greyscale
+save test-intensity-greyscale-bmp.bmp test-intensity-greyscale
+
+greyscale red-component test-jpg test-red-greyscale
+save test-red-greyscale-ppm.ppm test-red-greyscale
+
+greyscale green-component test-jpg test-green-greyscale
+save test-green-greyscale-png.png test-green-greyscale
+
+greyscale blue-component test-jpg test-blue-greyscale
+save test-blue-greyscale-bmp.bmp test-blue-greyscale
+
+horizontal-flip test-bmp test-horizontal
+save test-horizontal-ppm.ppm test-horizontal
+
+vertical-flip test-horizontal test-horizontal-vertical
+save test-horizontal-vertical-png.png test-horizontal-vertical
+
+vertical-flip test-bmp test-vertical
+save test-vertical-jpg.jpg test-vertical
+
+blur test-ppm test-blur
+save test-blur-ppm.ppm test-blur
+
+sharpen test-png test-sharpen
+save test-sharpen-png.png test-sharpen
+
+greyscale luma-component test-png test-luma-greyscale
+save test-luma-greyscale-jpg.jpg test-luma-greyscale
+
+sepia test-jpg test-sepia
+save test-sepia-jpg.jpg test-sepia
+
+dither test-bmp test-dither
+save test-dither-bpm.bmp test-dither
