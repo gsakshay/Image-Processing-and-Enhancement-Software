@@ -1,5 +1,7 @@
 # GRIME: Graphical Image Manipulation and Enhancement
 
+Find out how to use the software in ['./USEME.md'](USEME.md)
+
 ## Problem statement
 
 This is built on top of [mime (More Image Manipulation and Enhancement)](#L176)
