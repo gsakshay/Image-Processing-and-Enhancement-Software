@@ -66,9 +66,9 @@ The development of the GRIME software followed an iterative process, adhering to
 
 The software's initial phase laid the groundwork for image manipulation and enhancement. Following the principles of SOLID design, the architecture focused on:
 
-- **Single Responsibility Principle (SRP)**: Defined clear responsibilities for the Model, View, and Controller components. The Model handled image processing, the Controller managed user interactions, and the View concentrated on the graphical user interface.
-- **Open-Closed Principle (OCP)**: The initial design embraced extensibility by supporting file loading and saving operations for ASCII PPM files, effectively adhering to the OCP.
-
+- **Single Responsibility Principle (SRP)**: 
+- **Open-Closed Principle (OCP)**: 
+- 
 This phase established the foundation, providing basic functionalities like loading images, basic image manipulation, and scripting support.
 
 The initial implementation centers around the MVC design pattern within the `ime` package. Notably:
