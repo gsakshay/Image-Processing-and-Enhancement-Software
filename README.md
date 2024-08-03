@@ -1,6 +1,6 @@
 # GRIME: Graphical Image Manipulation and Enhancement
 
-Welcome to GRIME, an advanced image manipulation and enhancement software developed using Java Swing and built on robust design principles. This software empowers users to manipulate and enhance images with ease.
+Welcome to GRIME, an advanced image manipulation and enhancement software developed using Java Swing and built on robust design principles. This software empowers users to manipulate and enhance images with ease. (Update: Checkout [updated version of this wrapped in SpringBoot and made the functionality availabe via REST](https://github.com/gsakshay/ime-spring-boot))
 
 ![Screenshot](https://imgur.com/7Tl73Xc.png)
 
